@@ -1,0 +1,16 @@
+.center {
+    margin: 0 auto !important;
+    float: none !important;
+    text-align: center;
+    width: 960px;
+}
+
+.row-fluid [class*="span6"]:nth-child(2n+1) {
+    margin-left: 0;
+}
+
+.myDiver{
+    min-height:530px;
+    height:auto !important;
+    height:530px;
+}

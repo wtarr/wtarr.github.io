@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello</title>
+    <script src="../js/3dLib/three.js"></script>
+    <script src="../js/3dLib/stats.min.js"></script>
+    <script src="../js/3dLib/OrbitControls.js"></script>
+    <script src="../js/3dLib/THREEx.KeyboardState.js"></script>
+    <script src="../js/3dLib/THREEx.WindowResize.js"></script>
+    <script src="../js/3dLib/THREEx.KeyboardState.js"></script>
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    
+</head>
+<body>
+<div id="ThreeJS" style="z-index: 1; position: absolute; left: 0px; top: 0px"></div>
+
+<script>
+    var container, scene, camera, renderer, controls, stats;
+    var keyboard = new THREEx.KeyboardState();
+    var clock = new THREE.Clock();
+
+    var cube;
+
+    // Setup
+    init();
+
+    // Loop
+    animate();
+
+    function init()
+    {
+        var sphereMat;
+        scene = new THREE.Scene();
+
+        var screenWidth = window.innerWidth, screenHeight = window.innerHeight;
+
+        var viewAngle = 45, aspectRatio = screenWidth / screenHeight, near = 0.1, far = 20000;
+
+        camera = new THREE.PerspectiveCamera(viewAngle, aspectRatio, near, far ); // wherever you are ...
+
+        scene.add(camera);
+
+        camera.position.set(0, 150, 400);
+        camera.lookAt(scene.position);
+
+        // Could use a detector here
+        renderer = new THREE.WebGLRenderer( { antialias: true});
+
+        renderer.setSize(screenWidth, screenHeight);
+
+        container = document.getElementById('ThreeJS');
+
+        container.appendChild( renderer.domElement );
+
+        THREEx.WindowResize(renderer, camera);
+        //THREEx.FullScreen.bindKey({ charCode: 'm'.charCodeAt(0)});
+
+        controls = new THREE.OrbitControls( camera, renderer.domElement );
+
+        // Stats panel
+        stats = new Stats();
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.bottom = '0px';
+        stats.domElement.style.zIndex = 100;
+        container.appendChild( stats.domElement );
+
+        // Lights
+        var light = new THREE.PointLight(0xffffff);
+        light.position.set( 0, 250, 0);
+        scene.add(light);
+        var ambientLight = new THREE.AmbientLight(0x111111);
+        scene.add(ambientLight);
+
+        // SPHERE
+        var sphereGeometry = new THREE.SphereGeometry(40, 10, 10);
+        sphereMat = new THREE.MeshLambertMaterial({color: 0x9999ff});
+        var sphere = new THREE.Mesh(sphereGeometry, sphereMat);
+        sphere.position.set(100, 0, 0);
+        scene.add(sphere);
+
+        // CUBE
+        var cubeGeo = new THREE.CubeGeometry(40,40, 40);
+        var cubeMat = new THREE.MeshLambertMaterial( {color : 0x00ff00});
+        cube = new THREE.Mesh(cubeGeo, cubeMat);
+
+        cube.position.set(0, 0, 0);
+
+        scene.add(cube);
+
+        // FLOOR
+        var floorGeometry = new THREE.PlaneGeometry(1000, 1000);
+        var floorMat = new THREE.MeshLambertMaterial( { color: 0x9950ff});
+        var floor = new THREE.Mesh(floorGeometry, floorMat);
+        floor.rotation.x = 3 * (Math.PI / 2);
+        floor.position.set(0, -20, 0);
+        scene.add(floor);
+
+       // SKYBOX
+        var skyBoxGeometry = new THREE.CubeGeometry( 5000, 5000, 5000 );
+        var skyBoxMaterial = new THREE.MeshBasicMaterial( { color : 0x9999ff,
+        side: THREE.BackSide});
+        var skybox = new THREE.Mesh( skyBoxGeometry, skyBoxMaterial );
+        scene.add(skybox);
+        //scene.fog = new THREE.FogExp2( 0x9999ff, 0.00025 );
+    }
+
+    function animate()
+    {
+        requestAnimationFrame(animate);
+        render();
+        update();
+    }
+
+    function update()
+    {
+        var delta = clock.getDelta();
+
+        controls.update();
+        stats.update();
+
+        cube.rotation.y += 0.9 * delta;
+
+    }
+
+    function render()
+    {
+        renderer.render( scene, camera );
+    }
+
+</script>
+</body>
+</html>

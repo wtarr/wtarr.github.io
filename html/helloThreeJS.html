@@ -9,7 +9,7 @@
     <script src="../js/3dLib/THREEx.WindowResize.js"></script>
     <script src="../js/3dLib/THREEx.KeyboardState.js"></script>
     <script src="../js/jquery-1.10.2.min.js"></script>
-    
+
 </head>
 <body>
 <div id="ThreeJS" style="z-index: 1; position: absolute; left: 0px; top: 0px"></div>
@@ -20,6 +20,7 @@
     var clock = new THREE.Clock();
 
     var cube;
+    var model;
 
     // Setup
     init();
@@ -102,6 +103,19 @@
         var skybox = new THREE.Mesh( skyBoxGeometry, skyBoxMaterial );
         scene.add(skybox);
         //scene.fog = new THREE.FogExp2( 0x9999ff, 0.00025 );
+
+        // Model
+        var jsonLoader = new THREE.JSONLoader();
+        jsonLoader.load("../resources/model.js", addModelToScene);
+    }
+
+    function addModelToScene(geometry, materials)
+    {
+        var mat = new THREE.MeshFaceMaterial(materials);
+        model = new THREE.Mesh(geometry, mat);
+        model.scale.set(10, 10, 10);
+        model.position.set(-30, 0, 30);
+        scene.add(model);
     }
 
     function animate()

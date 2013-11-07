@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="09d15e40-5839-4b0a-a8f8-23980dc10189" name="Default" comment="" />
-=======
-    <list default="true" id="bb724532-3518-4d33-bb62-0e379a0064c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/jprojects.html" afterPath="$PROJECT_DIR$/html/jprojects.html" />
+    <list default="true" id="09d15e40-5839-4b0a-a8f8-23980dc10189" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/helloThreeJS.html" afterPath="$PROJECT_DIR$/html/helloThreeJS.html" />
     </list>
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
     <ignored path="wtarr.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,148 +25,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="4" selection-start="3940" selection-end="3940" vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2108">
-=======
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="4436" selection-end="4436" vertical-scroll-proportion="0.50133336" vertical-offset="1426" max-vertical-offset="2176">
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
+            <state line="111" column="0" selection-start="4509" selection-end="4509" vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="2176">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="1394">
+            <state line="54" column="0" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-34.653847" vertical-offset="17" max-vertical-offset="1462">
               <folding>
-=======
-      <file leaf-file-name="arduino.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/arduino.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="12" selection-start="2566" selection-end="2566" vertical-scroll-proportion="-28.76923" vertical-offset="408" max-vertical-offset="1513">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
                 <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="helloThreeJS.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/helloThreeJS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="464" selection-end="464" vertical-scroll-proportion="0.5936508" vertical-offset="0" max-vertical-offset="2329">
+            <state line="116" column="32" selection-start="3828" selection-end="3828" vertical-scroll-proportion="0.62222224" vertical-offset="1776" max-vertical-offset="2567">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-=======
-      <file leaf-file-name="jprojects.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/jprojects.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="37" selection-start="2856" selection-end="2856" vertical-scroll-proportion="-17.0" vertical-offset="663" max-vertical-offset="3043">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csharpxna.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/csharpxna.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="68" selection-start="1521" selection-end="1521" vertical-scroll-proportion="-17.653847" vertical-offset="272" max-vertical-offset="1955">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blender.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/blender.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="68" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-17.0" vertical-offset="272" max-vertical-offset="1581">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/links.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="2091">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="68" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-17.0" vertical-offset="272" max-vertical-offset="1649">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unity.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/unity.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="68" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-20.26923" vertical-offset="204" max-vertical-offset="3230">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#p#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#p#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-=======
-      <file leaf-file-name="contact.gif" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/contact.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="103" selection-start="0" selection-end="3232" vertical-scroll-proportion="-11.115385" vertical-offset="272" max-vertical-offset="1462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
     </leaf>
   </component>
   <component name="FindManager">
@@ -189,37 +74,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/about.html" />
         <option value="$PROJECT_DIR$/html/helloThreeJS.html" />
-=======
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/_index.html" />
-        <option value="$PROJECT_DIR$/css/site.css" />
-        <option value="$PROJECT_DIR$/html/about.html" />
-        <option value="$PROJECT_DIR$/html/blender.html" />
-        <option value="$PROJECT_DIR$/html/contact.html" />
-        <option value="$PROJECT_DIR$/html/csharpxna.html" />
-        <option value="$PROJECT_DIR$/html/links.html" />
-        <option value="$PROJECT_DIR$/html/unity.html" />
-        <option value="$PROJECT_DIR$/html/arduino.html" />
-        <option value="$PROJECT_DIR$/html/jprojects.html" />
-        <option value="$PROJECT_DIR$/index.html" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-<<<<<<< HEAD
     <option name="width" value="1382" />
     <option name="height" value="744" />
-=======
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,10 +112,6 @@
       <sortByType />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,9 +140,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
-=======
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,12 +154,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-<<<<<<< HEAD
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -310,56 +167,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-=======
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wtarr.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wtarr.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="Images" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Software_and_Graphics_Lab/WebTesting" />
-    <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\William\Documents\GitHub\wtarr.github.io\html" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-=======
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
+  <component name="RunManager" selected="JavaScript Debug.helloThreeJS.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="file://$PROJECT_DIR$/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-<<<<<<< HEAD
-=======
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/wtarr.github.io/index.html">
+    <configuration default="false" name="helloThreeJS.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/wtarr.github.io/html/helloThreeJS.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -374,7 +194,6 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -383,17 +202,6 @@
       <option name="testName" />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-=======
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
@@ -407,13 +215,12 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.helloThreeJS.html" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.helloThreeJS.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +244,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
       <changelist id="09d15e40-5839-4b0a-a8f8-23980dc10189" name="Default" comment="" />
       <created>1375222203401</created>
       <updated>1375222203401</updated>
@@ -445,78 +251,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-=======
-      <changelist id="bb724532-3518-4d33-bb62-0e379a0064c1" name="Default" comment="" />
-      <created>1375035101252</created>
-      <updated>1375035101252</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Basic page layout">
-      <created>1375038845854</created>
-      <updated>1375038845854</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added all the main required pages and added templating to each of them.  Now ready for content">
-      <created>1375293047377</created>
-      <updated>1375293047377</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fix jscript links">
-      <created>1375293189980</created>
-      <updated>1375293189980</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Collasable nav bar">
-      <created>1375374686846</created>
-      <updated>1375374686846</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adding more content from old site">
-      <created>1375532095303</created>
-      <updated>1375532095303</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Remove unity page">
-      <created>1383060505469</created>
-      <updated>1383060505469</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Adding arduino page">
-      <created>1383062991205</created>
-      <updated>1383062991205</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
-    <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.6026273" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16178624" sideWeight="0.6026273" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39737275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1265625" sideWeight="0.86984813" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13015184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13015184" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -529,17 +281,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-<<<<<<< HEAD
-=======
-    <MESSAGE value="Basic page layout" />
-    <MESSAGE value="Added all the main required pages and added templating to each of them.  Now ready for content" />
-    <MESSAGE value="fix jscript links" />
-    <MESSAGE value="Collasable nav bar" />
-    <MESSAGE value="Adding more content from old site" />
-    <MESSAGE value="Remove unity page" />
-    <MESSAGE value="Adding arduino page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding arduino page" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -547,16 +288,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="108" column="4" selection-start="3940" selection-end="3940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-=======
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/html/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1394">
@@ -569,114 +305,36 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-=======
-    <entry file="file://$PROJECT_DIR$/img/contact.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/contact.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/html/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="62" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding>
-=======
-    <entry file="file://$PROJECT_DIR$/html/unity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="68" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-20.26923" vertical-offset="204" max-vertical-offset="3230">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#p#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#p#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
             <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="4" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-=======
-    <entry file="file://$PROJECT_DIR$/html/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="68" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-17.0" vertical-offset="272" max-vertical-offset="1649">
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="4" selection-start="3940" selection-end="3940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-=======
-    <entry file="file://$PROJECT_DIR$/html/csharpxna.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="68" selection-start="1521" selection-end="1521" vertical-scroll-proportion="-17.653847" vertical-offset="272" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="2091">
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
+        <state line="111" column="0" selection-start="4509" selection-end="4509" vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="2176">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/about.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="53" column="0" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="1394">
+        <state line="54" column="0" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-34.653847" vertical-offset="17" max-vertical-offset="1462">
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -685,53 +343,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/helloThreeJS.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="464" selection-end="464" vertical-scroll-proportion="0.5936508" vertical-offset="0" max-vertical-offset="2329">
+        <state line="116" column="32" selection-start="3828" selection-end="3828" vertical-scroll-proportion="0.62222224" vertical-offset="1776" max-vertical-offset="2567">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-=======
-        <state line="33" column="103" selection-start="0" selection-end="3232" vertical-scroll-proportion="-11.115385" vertical-offset="272" max-vertical-offset="1462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/blender.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="68" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-17.0" vertical-offset="272" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/arduino.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="12" selection-start="2566" selection-end="2566" vertical-scroll-proportion="-28.76923" vertical-offset="408" max-vertical-offset="1513">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/html/jprojects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="37" selection-start="2856" selection-end="2856" vertical-scroll-proportion="-17.0" vertical-offset="663" max-vertical-offset="3043">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="4436" selection-end="4436" vertical-scroll-proportion="0.50133336" vertical-offset="1426" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
->>>>>>> 3f0d14e197ca319d01597f4003a1185e5dce72cc
   </component>
 </project>
 

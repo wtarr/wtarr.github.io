@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Williams Home page</title>
+    <title>Bugs and Code</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -40,13 +40,14 @@
                 <div class="nav-collapse">
                     <ul class="nav">
                         <li><a href="about.html">About</a></li>
+                        <li><a href="arduino.html">Arduino</a> </li>
                         <li><a href="jprojects.html">Java Projects</a></li>
                         <li><a href="csharpxna.html">C# / XNA Projects</a></li>
                         <li><a href="blender.html">Blender</a></li>
                         <li><a href="links.html">Links</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="https://github.com/wtarr">GitHub</a></li>
-                        <li class="active"><a href="unity.html">Unity</a></li>
+                        <!--<li class="active"><a href="unity.html">Unity</a></li>-->
                     </ul>
                 </div><!-- /.nav-collapse -->
             </div><!-- /.container -->
@@ -56,7 +57,113 @@
     <div style="padding-right: 50px; padding-left: 50px">  <!-- Content -->
 
         <h1>Unity</h1>
+        This is a test page for my third year games development project. The main focus is been given to providing an algorithm that will control a missile from launch to terminal guidance. For a missile to be efficient, it will normally try and always lead its target rather than just chase it.  In <a href="http://en.wikipedia.org/wiki/AIM-9_Sidewinder" target="_blank">military sidewinders</a> target tracking is done with Infrared and <a href="http://en.wikipedia.org/wiki/Proportional_navigation" target="_blank">proportional navigation</a> but this project will try an approach of using an on board radar system.
 
+        Other features that are to be included in this project will be:
+        <ul>
+            <li>Target Motion Analysis.</li>
+            <li><span style="line-height: 16px;">Developing using the Unity3d engine.</span></li>
+            <li>Network multiplayer.</li>
+        </ul>
+        <p style="text-align: left;"><strong>The radar system</strong></p>
+        <img class="aligncenter" style="border: 0px;" title="Unity Demo" alt="Radar Sequence 1" src="../images/radarseq1.jpg" />
+
+        The player/owner craft sweeps the area with a bounding box.  This meant to represent a radar sweep of the area.
+
+        <img class="aligncenter" style="border: 0px;" title="Unity Demo" alt="Radar Sequence 2" src="../images/radarseq2.jpg" />
+
+        If the sweep collides with another craft, that craft spawns a bounding sphere that will continue to expand until it expires.  This is the represent the ping back.
+
+        <img class="aligncenter" style="border: 0px;" title="Unity Demo" alt="Radar Sequence 3" src="../images/radarseq3.jpg" />
+
+        Once the owner/player craft receives the ping they begin to log the origin and signature of the received ping and from this the tracking process can begin.
+        <p style="text-align: left;"><strong>Update 03/05/2013</strong>
+            <img class="aligncenter" style="border: 0px;" title="Unity Demo" alt="Unity Networking Demo" src="../images/netDemo1.png" width="245" height="147" />
+            <img class="aligncenter" style="border: 0px;" title="Unity Demo" alt="Unity Networking Demo start screen" src="../images/netDemo2.png" width="350" height="210" /></p>
+        Networking in place.
+
+        Webplayer version allows connection to unity master server to register/find hosts
+        <p style="text-align: center;"><a title="RedSky WebPlayer Version" href="../unity/Release08042013/WebDeployment.html" target="_blank">Play Here</a></p>
+        Standalone (Downloadable) version includes the above and also a LAN game discovery feature.
+        <p style="text-align: center;"><a title="RedSky - Downloadable version" href="../unity/Release08042013/RedSky.zip" target="_blank">Download Here</a></p>
+        <p>
+            <strong>Firewall info</strong>
+            For the Unity master test server
+            IP address 67.225.180.24
+            Port 23466
+
+            Application port
+            25001
+
+            For the LAN multicast (which should work regardless even running two or more instances on a local machine with no
+            network access)
+            the MC address is 239.255.40.40 on port 2225
+        </p>
+
+        <strong>Update 10/03/2013</strong>
+        <p style="text-align: center;"><img class="aligncenter" style="border: 0px;" title="Unity Demo" alt="Training App" src="../images/UnityV2.jpg" width="500" height="300" /></p>
+        Current File Size: ~5Mb
+
+        Ported to unity 4.0.1
+
+        Craft and missile now have their own radar systems
+
+        <strong>Tab</strong> key toggles target selection and <strong>F</strong> fires same as previous. All other controls remain the same.
+
+        Model source
+        Apache - http://www.blendswap.com/blends/view/44235 CC-Zero license
+        AIM 9 SW - http://www.blendswap.com/blends/view/22736 CC-Zero license
+        <p style="text-align: center;"><a href="../unity/MissileWeb.html" target="_blank"><span style="color: #000080;">Play the game (WIP)</span></a></p>
+        (Requires Unity web player available <a href="http://unity3d.com/webplayer/" target="_blank">here</a> if the page above doesn't trigger a download)
+
+        <strong>Edit: 28/02/2013</strong>
+
+        <img style="border: 0;" title="Unity Demo" alt="Training App" src="../images/UnityDemo.jpg" width="500" height="300" />
+
+        Current File Size: 2.2 Mb
+
+        Experimenting with implementing a radar system that pings its target and waits for a response
+
+        Also playing with the idea of a HUD for the radar
+
+        The main helicopter can now be controlled by the following
+        <strong>Keypad 7</strong> = forward
+        <strong>Keypad 9</strong> = brake / reverse
+        <strong>Keypad 8</strong> = pitch up
+        <strong>Keypad 2</strong> = pitch down
+        <strong>Keypad 6</strong> = yaw left
+        <strong>Keypad 4</strong> = yaw right
+
+        Some notes: best viewed full screen as I noticed an issue where the radar HUD is placed compared to when testing the main build.
+
+        the target craft can still be controlled by the following ....
+
+        <strong>S</strong> Pitch target up
+
+        <strong>W</strong> Pitch target down
+
+        <strong>D</strong> Accelerate target in the forward direction
+
+        <strong>A</strong> Decelerate/Reverse target
+
+        <strong>Q</strong> Yaw target Left about targets up axis
+
+        <strong>E</strong> Yaw target Right about targets up axis
+
+        <strong>F</strong> Launch to missile at target
+
+        Still a work in progress
+
+        Note:
+        Web player does not seem to be supported on linux.
+
+        Edits:
+        Added basic water
+        Added skybox
+
+        <strong>Update 24/02/2013:</strong>
+        Missile computes lead constantly on launch
+        Target has maneuverability to test missile
 
         <hr style="border-bottom-color: #000000">
 

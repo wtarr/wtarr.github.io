@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Monkey Run Animation</title>
+    <script type="text/javascript" src="../js/3dLib/three.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>    
+    <script src="../js/3dLib/orbitcontrols.js" type="text/javascript"></script>
+    <script src="../js/3dLib/dat.gui.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="WebGL-Output" style="height: 540px; width: 960"></div>
+</div>
+
+<script>
+    $(function () {
+
+        var scene = new THREE.Scene();
+
+        var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+        var  webGLRenderer = new THREE.WebGLRenderer();
+        webGLRenderer.setClearColor(0xEEEEEE, 1.0);
+        webGLRenderer.setSize(window.innerWidth, window.innerHeight);
+        webGLRenderer.shadowMapEnabled = true;
+
+
+        camera.position.x = 0;
+        camera.position.y = 5;
+        camera.position.z = 20;
+
+        camera.lookAt(scene.position);
+        var control = new THREE.OrbitControls(camera);
+
+        // add spotlight for the shadows
+        var spotLight = new THREE.SpotLight(0xffffff);
+        spotLight.position.set(0, 50, 30);
+        spotLight.intensity = 2;
+        scene.add(spotLight);
+
+        var geometry = new THREE.CubeGeometry(1,1,1);
+        var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
+        var runAnimation, waveAnimation, runWaveAnimation;
+
+        var animControlsGUI = function()
+        {
+            this.run = function()
+            {
+                if (waveAnimation.isPlaying)
+                    waveAnimation.stop();
+                if (runWaveAnimation.isPlaying)
+                    runWaveAnimation.stop();
+                runAnimation.play();
+            }
+
+            this.wave = function()
+            {
+                if (runAnimation.isPlaying)
+                    runAnimation.stop();
+                if (runWaveAnimation.isPlaying)
+                    runWaveAnimation.stop();
+                waveAnimation.play();
+            }
+
+            this.waverun = function()
+            {
+                if (runAnimation.isPlaying)
+                    runAnimation.stop();
+                if (waveAnimation.isPlaying)
+                    waveAnimation.stop();
+                runWaveAnimation.play();
+            }
+
+        }
+        var text = new animControlsGUI();
+        var gui = new dat.GUI();
+        gui.add(text, 'run');
+        gui.add(text, 'wave');
+        gui.add(text, 'waverun');
+
+        $("#WebGL-Output").append(webGLRenderer.domElement);
+
+        var mesh;
+
+        var clock = new THREE.Clock();
+
+        var loader = new THREE.JSONLoader();
+        loader.load('../resources/monkeyRunWave.js', function (geometry, mat) {
+            var mat = new THREE.MeshLambertMaterial({color: 0xA0522D, skinning: true});
+
+            var run = geometry.animations[0];
+            var wave = geometry.animations[1];
+
+            var newGeometryAnimations = mergePrimaryAndSecondaryAnimation(run, wave, "WaveRunCodeMerge",geometry.animations);
+
+            THREE.AnimationHandler.add(newGeometryAnimations); // NOTE Plural
+
+            mesh = new THREE.SkinnedMesh(geometry, mat);
+            //mesh.rotation.x = 0.5 * Math.PI;
+            //mesh.rotation.z = 0.7 * Math.PI;
+            scene.add(mesh);
+
+            runAnimation = new THREE.Animation(mesh, "Run");
+            waveAnimation = new THREE.Animation(mesh, "Wave");
+            runWaveAnimation = new THREE.Animation(mesh, "WaveRunCodeMerge");
+
+            //animation.play();
+            //animation.timeScale = 4;
+
+        }, "../resources");
+
+        render();
+
+        function render()
+        {
+
+            var delta = clock.getDelta();
+            if (mesh)
+            {
+                THREE.AnimationHandler.update(delta);
+            }
+
+            control.update();
+            requestAnimationFrame(render);
+            webGLRenderer.render(scene, camera);
+        }
+
+        function mergePrimaryAndSecondaryAnimation(primary, secondary, name,animations)
+        {
+
+            var bonesMain = primary; // run
+            var bonesSecondary = secondary; // wave
+            var bones3 = [];
+            //bones.parent =
+
+            // each have 24 bones but different keys, merge mash incoming ...
+            var tempKeys = new Array();
+
+            var obj = new Object();
+            obj.fps = 24;
+            obj.length = bonesMain.length;
+            obj.name = name;
+            obj.hierarchy = bonesMain.hierarchy.slice(0);
+
+            animations.push(obj); // copy animations from main to new object
+
+            for (var i = 0 ; i < bonesSecondary.hierarchy.length; i++)
+            {
+
+                //bone ->hierarchy [] -> keys []
+
+                if (isAMovingKeyFrame(bonesSecondary.hierarchy[i].keys))
+                {
+                    obj.hierarchy[i] = bonesSecondary.hierarchy[i];
+                }
+
+            }  // next bone
+
+
+            return animations;
+
+        }
+
+        function isAMovingKeyFrame(keys)
+        {
+            var first = keys[0];
+            var last = keys[keys.length-1];
+
+            if (keys.length == 2 &&
+                    hasMatchingPositions(first, last))
+            {
+                //There are only 2 key frames
+                //and both positions are the same
+                return false;
+            }
+
+            return true;
+        }
+
+        function hasMatchingPositions(first, last) {
+            return first.pos[0] == last.pos[0]
+                    && first.pos[1] == last.pos[1]
+                    && first.pos[2] == last.pos[2];
+        }
+
+    })
+
+
+
+</script>
+</body>
+</html>
